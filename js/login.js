@@ -1,5 +1,5 @@
 define(['jquery','ajax'],function($,ajax){
-	var url="http://www.txl.com/api/loging.php";
+	var url="http://169.254.152.228/xiaosx/txl/api/loging.php";
 
 	var obj;
 	$(".dl").click(function () {

@@ -1,5 +1,5 @@
 define(["ajax"],function(ajax){
-	var url="http://www.txl.com/api/sign.php";
+	var url="http://169.254.152.228/xiaosx/txl/api/sign.php";
 	var obj={
 
 	}

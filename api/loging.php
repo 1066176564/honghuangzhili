@@ -1,4 +1,5 @@
 <?php 
+header("Access-Control-Allow-Origin:*");
 
 $db= mysqli_connect("localhost","root","root","loging");
 mysqli_query($db,"set names utf8");

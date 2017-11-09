@@ -23,7 +23,7 @@ define(['jquery','ajax'],function($,ajax){
 						if(obj.password != obj.newpassword){
 					  	alert("两次输入的密码不同")
 						}else{
-							var url="http://www.txl.com/api/zc.php";
+							var url="http://169.254.152.228/xiaosx/txl/api/zc.php";
 							ajax.ajax(url,obj,function(data){
 							if(data.st){
 								alert("成功")

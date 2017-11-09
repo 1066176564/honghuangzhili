@@ -1,7 +1,7 @@
 define(["ajax"],function(ajax){
 	var obj = new Object();
 	obj.p=0;
-	var url="http://www.txl.com/api/list.php";
+	var url="http://169.254.152.228/xiaosx/txl/api/list.php";
 	$(window).scroll(function(){
     //滚动条所在位置的高度
     totalheight = parseFloat($(window).height()) + parseFloat($(window).scrollTop());

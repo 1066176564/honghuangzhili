@@ -1,4 +1,5 @@
 <?php 
+header("Access-Control-Allow-Origin:*");
 
 $username = isset($_POST['username'])?$_POST['username']:"";
 $password = isset($_POST['password'])?$_POST['password']:"";
