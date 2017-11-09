@@ -25,7 +25,7 @@ define(['jquery','ajax'],function($,ajax){
 					console.log(data)
 					if(data.st==1){
 						$("h1").html("欢迎"+data.data.username+"登录");
-						window.location.href="http://www.txl.com/indexs.html?name="+data.data.username;
+						window.location.href="http://169.254.152.228/xiaosx/txl/indexs.html?name="+data.data.username;
 					}
 				})
 			
