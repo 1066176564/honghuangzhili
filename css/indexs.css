@@ -1,0 +1,147 @@
+*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+}
+.h1, .h2, .h3, h1, h2, h3{
+	margin: 0;
+}
+p{
+	margin: 0;
+}
+body{
+	background: #f1f1f1;
+}
+h1{
+	width: 100%;
+	height:60px;
+	text-align: center;
+	line-height: 60px;
+	background:skyblue;
+	position: fixed;
+	top: 0;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	background: #ffffff;
+	border-top: 1px #999999 solid; 
+	z-index: 99999;
+}
+footer ul{
+	width: 100%;
+	height: 50px;
+	display: flex;
+	padding: 5px 0;
+}
+footer ul li{
+	justify-content: center;
+	flex: 1;
+	text-align: center;
+	font-size:18px;
+	color:#999999;
+}
+#div1,#div2,#div3,#div4{
+	background: #f1f1f1;
+	display: none;
+}
+.active{
+	color:#f90;
+}
+.myInput{
+	padding: 5px;
+}
+.aaaa{
+	height: 60px;
+}
+.list-item{
+	clear: both;
+	height: 80px;
+	background: #fff;
+	padding: 10px;
+	margin-bottom:5px; 
+}
+.list-item div:nth-child(1){
+	width: 60px;
+	height: 60px;
+	background:#f93;
+	line-height: 60px;
+	text-align: center;
+	font-size:30px;
+	float: left;
+	margin-right: 10px;
+	color:#fff;
+	border-radius: 5px;
+}
+.list-item div:nth-child(2){
+	width: 65%;
+	float: left;
+}
+.list-item div:nth-child(2) p{
+	overflow:hidden; 
+	text-overflow:ellipsis;
+	display:-webkit-box; 
+	-webkit-box-orient:vertical;
+	-webkit-line-clamp:2; 
+	margin-bottom: 5px;
+}
+.list-item div:nth-child(3){
+	line-height: 60px;
+	font-size: 16px;
+	float: right;
+}
+.img{
+	width:40px;
+	height: 40px;
+	overflow:hidden;
+	position: fixed;
+	bottom:100px;
+	right:40px;
+	background: url(../img/2.png);
+	display: none;
+}
+.xq{
+	width: 100%;
+	height:100vh;
+	position: fixed;
+	top:0;
+	left: 0;
+	background: #fff;
+	z-index: 999999;
+	display: none;
+}
+.xq p{
+	font-size:24px;
+	text-indent: 2em;
+	margin-bottom: 20px;
+}
+.xq span{
+	float: right;
+}
+.xq div{
+	clear: both;
+}
+.xq div:nth-child(2){
+	float: right;
+}
+.xq .name{
+    width: 100%;
+    text-align: end;
+}
+#back{
+	position: fixed;
+	top: 0;
+	left:10px;
+	z-index: 897979466;
+
+	height: 60px;
+	line-height: 60px;
+}
+#back img{
+	width:20px;
+	
+}
+
