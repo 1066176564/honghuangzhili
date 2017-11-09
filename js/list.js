@@ -57,6 +57,7 @@ define(["ajax"],function(ajax){
 					$(".xq #h").html("").height("60");
 					$("#back").click(function(){
 					$("#div2").children().show();
+	       			$(".img").hide();
 					$(".xq").hide();
 
 					})
