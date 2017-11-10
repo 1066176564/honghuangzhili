@@ -246,22 +246,29 @@ main #div1 .sy .div8{
 
 main #sy-add{
 	width: 100%;
-	height: 100vh;
+	/*height: 100vh;*/
 	background: #fff;
-	position: fixed;
+	/*position: absolute;*/
+	position: absolute;
 	top: 0;
 	margin:0; 
 	display: none;
+	margin-bottom: 60px; 
 }
 
 /*首页页面--增加弹出框--头部*/
+
+
 
 main #sy-add header{
 	width: 100%;
 	height: 60px;
 	background: #3495FB;
 	text-align: center;
-	position: relative;
+	/*position: relative;*/
+	position: fixed;
+	top: 0;
+	margin:0;
 }
 
 main #sy-add header p{

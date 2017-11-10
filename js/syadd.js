@@ -60,4 +60,23 @@ define(["jquery","ajax"],function($,ajax){
 
 		}
 
+		//回到顶部图标显示
+  	window.onscroll = function () {
+	    if (document.documentElement.scrollTop + document.body.scrollTop > 300) {
+	      $(".img").show();
+	    }
+	    else {
+	       $(".img").hide();
+	    }
+  	}
+  //回到顶部
+	$(".img").click(smoothscroll);
+		function smoothscroll(){
+	    var currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
+	    if (currentScroll > 0) {
+	         window.requestAnimationFrame(smoothscroll);
+	         window.scrollTo (0,currentScroll - (currentScroll/5));
+	    }
+	}
+
 })
