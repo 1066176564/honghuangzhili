@@ -7,10 +7,10 @@ h1{
 	height:60px;
 	text-align: center;
 	line-height: 60px;
-	background:skyblue;
+	background:#3495FB;
 	position: fixed;
 	top: 0;
-
+	color: #fff;
 }
 .h1, .h2, .h3, h1, h2, h3{
 	margin: 0;
