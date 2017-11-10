@@ -12,6 +12,8 @@ p{
 body{
 	background: #f1f1f1;
 }
+
+/* 头部固定 */
 h1{
 	width: 100%;
 	height:60px;
@@ -22,6 +24,9 @@ h1{
 	top: 0;
 	color:#fff;
 }
+
+
+/* 底部固定 */
 footer{
 	position: fixed;
 	bottom: 0;
@@ -45,6 +50,8 @@ footer ul li{
 	font-size:18px;
 	color:#999999;
 }
+
+/* 四个页面 */
 #div1,#div2,#div3,#div4{
 	background: #f1f1f1;
 	display: none;
@@ -52,12 +59,16 @@ footer ul li{
 .active{
 	color:#f90;
 }
+
+/* 主页面--公告页面 */
 .myInput{
 	padding: 5px;
 }
 .aaaa{
 	height: 60px;
 }
+
+
 .list-item{
 	clear: both;
 	height: 80px;
@@ -146,3 +157,221 @@ footer ul li{
 	
 }
 
+
+/* 主页面--首页页面 */
+main #div1 .sy{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+main #div1 .sy div{
+	width: 23%;
+	height: 95px;
+	margin-top: 15px;
+	color: #fff;
+}
+
+main #div1 .sy div h4{
+	font-size: 24px;
+}
+
+main #div1 .sy .div1{
+	background: #0379FB;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main #div1 .sy .div2{
+	background: #FCD333;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main #div1 .sy .div3{
+	background: #E74B44;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main #div1 .sy .div4{
+	background: #57B648;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main #div1 .sy .div5{
+	background: #ED6FBB;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main #div1 .sy .div6{
+	background: #E38830;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+main #div1 .sy .div7{
+	background: pink;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+	opacity: 0;
+}
+
+main #div1 .sy .div8{
+	background: brown;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 10px;
+	opacity: 0;
+}
+
+/* 中间部分--管理 */
+
+main #div3 .gl>p{
+	width: 100%;
+	height: 40px;
+	background:#fff; 
+	margin-bottom: 2px;
+	text-align: left;
+	line-height: 40px;
+	font-size: 18px;
+}
+
+main #div3 .gl p span{
+	margin-left: 10px;
+}
+
+main #div3 .gl .header{
+	margin-top: 50px;
+}
+
+main #div3 .gl .footer{
+	margin-top: 50px;
+}
+
+/*管理页面--增加弹出框*/
+main #div3 .gl #add-ym{
+	width: 100%;
+	height: 100vh;
+	background:#fff; 
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+/*管理页面--增加弹出框--头部*/
+main #div3 .gl #add-ym header{
+	width: 100%;
+	height: 60px;
+	background: deepskyblue;
+	text-align: center;
+	position: relative;
+}
+
+main #div3 .gl #add-ym header p{
+	font-size: 36px;
+	color: #fff;
+	position: absolute;
+	left: 5%;
+	margin:0; 
+	line-height: 60px;
+}
+
+main #div3 .gl #add-ym header h2{
+	margin:0;
+	line-height: 60px;
+	color: #fff;
+}
+
+/*管理页面--增加弹出框--中间*/
+
+main #div3 .gl #add-ym main p{
+	width: 80%;
+	height: 40px;
+	margin-left: 10%;
+	font-size: 18px;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+main #div3 .gl #add-ym main p input{
+	border:1px solid #ccc;
+	border-radius:5px; ;
+	width: 70%;
+	height: 100%;
+	float: right;
+	margin-right: 30px;
+}
+
+main #div3 .gl #add-ym main p:nth-child(1){
+	margin-top:50px; 
+}
+
+/* 表单下面的按钮组 */
+main #div3 .gl #add-ym main .btn-1{
+	width: 70%;
+	margin-left: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+main #div3 .gl #add-ym main .btn-1>div{
+	width: 30%;
+	height: 40px;
+	border:1px solid #ccc; 
+	border-radius: 5px;
+	margin-top:10px; 
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+
+main #div3 .gl #add-ym main .btn-2{
+	width: 70%;
+	margin-left: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 40px;
+}
+
+main #div3 .gl #add-ym main .btn-2>div{
+	width: 30%;
+	height: 40px;
+	border:1px solid #ccc; 
+	border-radius: 5px;
+	margin-top:10px; 
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.actives{
+	background-color: #5AC1FC;
+	color: #fff;
+}
+
+/* 创建用户按钮 */
+main #div3 .gl #add-ym main button{
+	width: 60%;
+	margin-left: 20%;
+	height: 40px;
+	border:2px solid #9FCCFC;
+	border-radius:5px;
+	margin-top: 40px;
+	background-color: #fff;
+	color: black;
+	font-size: 18px;
+}

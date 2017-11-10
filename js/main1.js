@@ -5,10 +5,11 @@ require.config(
 				jquery:"lib/jquery-3.1.1.min",
 				ajax:"ajax",
 				indexs:"indexs",
-				list:"list"
+				list:"list",
+				gladd:"gladd"
 			}
 		}
 )
-require(["indexs","list"],function () {
+require(["indexs","list","gladd"],function () {
 	
 })
