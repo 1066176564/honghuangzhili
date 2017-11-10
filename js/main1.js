@@ -6,10 +6,11 @@ require.config(
 				ajax:"ajax",
 				indexs:"indexs",
 				list:"list",
-				gladd:"gladd"
+				gladd:"gladd",
+				syadd:"syadd"
 			}
 		}
 )
-require(["indexs","list","gladd"],function () {
+require(["indexs","list","gladd","syadd"],function () {
 	
 })

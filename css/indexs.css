@@ -242,6 +242,84 @@ main #div1 .sy .div8{
 	opacity: 0;
 }
 
+/*首页页面--增加弹出框*/
+
+main #sy-add{
+	width: 100%;
+	height: 100vh;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	margin:0; 
+	display: none;
+}
+
+/*首页页面--增加弹出框--头部*/
+
+main #sy-add header{
+	width: 100%;
+	height: 60px;
+	background: #3495FB;
+	text-align: center;
+	position: relative;
+}
+
+main #sy-add header p{
+	font-size: 36px;
+	color: #fff;
+	position: absolute;
+	left: 5%;
+	margin:0; 
+	line-height: 60px;
+}
+
+main #sy-add header h2{
+	margin:0;
+	line-height: 60px;
+	color: #fff;
+}
+
+/*首页页面--增加弹出框--主体*/
+main #sy-add #sylist{
+	width: 100%;
+	height: 80px;
+	border:1px solid #ccc;
+	display: flex;
+	justify-content: space-around;
+	font-size: 18px;
+	padding-top: 10px;
+}
+
+main #sy-add #sylist div:nth-child(1){
+	width: 60px;
+	height: 60px;
+	background: blue;
+	color: #fff;
+	text-align: center;
+	line-height: 60px;
+	font-size: 26px;
+}
+
+main #sy-add #sylist div:nth-child(2){
+	width: 35%;
+	height: 80px;
+	color: #000;
+	font-size: 22px;
+	margin-top: 5px;
+}
+
+	main #sy-add #sylist div:nth-child(2) p:nth-child(2){
+		font-size: 18px;
+		color:#999;
+	}
+
+main #sy-add #sylist div:nth-child(3){
+	width: 35%;
+	height: 80px;
+	margin-top: 10px;
+	color:#7ECDFC;
+}
+
 /* 中间部分--管理 */
 
 main #div3 .gl>p{
@@ -267,7 +345,7 @@ main #div3 .gl .footer{
 }
 
 /*管理页面--增加弹出框*/
-main #div3 .gl #add-ym{
+main #div3 #add-ym{
 	width: 100%;
 	height: 100vh;
 	background:#fff; 
@@ -278,7 +356,7 @@ main #div3 .gl #add-ym{
 }
 
 /*管理页面--增加弹出框--头部*/
-main #div3 .gl #add-ym header{
+main #div3 #add-ym header{
 	width: 100%;
 	height: 60px;
 	background: #3495FB;
@@ -286,7 +364,7 @@ main #div3 .gl #add-ym header{
 	position: relative;
 }
 
-main #div3 .gl #add-ym header p{
+main #div3 #add-ym header p{
 	font-size: 36px;
 	color: #fff;
 	position: absolute;
@@ -295,7 +373,7 @@ main #div3 .gl #add-ym header p{
 	line-height: 60px;
 }
 
-main #div3 .gl #add-ym header h2{
+main #div3 #add-ym header h2{
 	margin:0;
 	line-height: 60px;
 	color: #fff;
@@ -303,7 +381,7 @@ main #div3 .gl #add-ym header h2{
 
 /*管理页面--增加弹出框--中间*/
 
-main #div3 .gl #add-ym main p{
+main #div3 #add-ym main p{
 	width: 80%;
 	height: 40px;
 	margin-left: 10%;
@@ -312,7 +390,7 @@ main #div3 .gl #add-ym main p{
 	margin-top: 10px;
 }
 
-main #div3 .gl #add-ym main p input{
+main #div3 #add-ym main p input{
 	border:1px solid #ccc;
 	border-radius:5px; ;
 	width: 70%;
@@ -321,12 +399,12 @@ main #div3 .gl #add-ym main p input{
 	margin-right: 30px;
 }
 
-main #div3 .gl #add-ym main p:nth-child(1){
+main #div3 #add-ym main p:nth-child(1){
 	margin-top:50px; 
 }
 
 /* 表单下面的按钮组 */
-main #div3 .gl #add-ym main .btn-1{
+main #div3 #add-ym main .btn-1{
 	width: 70%;
 	margin-left: 15%;
 	display: flex;
@@ -335,7 +413,7 @@ main #div3 .gl #add-ym main .btn-1{
 	margin-top: 20px;
 }
 
-main #div3 .gl #add-ym main .btn-1>div{
+main #div3 #add-ym main .btn-1>div{
 	width: 30%;
 	height: 40px;
 	border:1px solid #ccc; 
@@ -346,7 +424,7 @@ main #div3 .gl #add-ym main .btn-1>div{
 	text-align: center;
 }
 
-main #div3 .gl #add-ym main .btn-2{
+main #div3 #add-ym main .btn-2{
 	width: 70%;
 	margin-left: 15%;
 	display: flex;
@@ -355,7 +433,7 @@ main #div3 .gl #add-ym main .btn-2{
 	margin-top: 40px;
 }
 
-main #div3 .gl #add-ym main .btn-2>div{
+main #div3 #add-ym main .btn-2>div{
 	width: 30%;
 	height: 40px;
 	border:1px solid #ccc; 
@@ -372,7 +450,7 @@ main #div3 .gl #add-ym main .btn-2>div{
 }
 
 /* 创建用户按钮 */
-main #div3 .gl #add-ym main button{
+main #div3 #add-ym main button{
 	width: 60%;
 	margin-left: 20%;
 	height: 40px;

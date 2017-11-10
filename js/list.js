@@ -56,9 +56,9 @@ define(["ajax"],function(ajax){
 					$(".xq").show().html("<h1>详细信息</h1><div id='back'><img src='img/3.png'/></div>").append($(this).html());
 					$(".xq #h").html("").height("60");
 					$("#back").click(function(){
-					$("#div2").children().show();
-	       			$(".img").hide();
-					$(".xq").hide();
+						$("#div2").children().show();
+		       			$(".img").hide();
+						$(".xq").hide();
 
 					})
 			})
