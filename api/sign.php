@@ -13,6 +13,5 @@ echo json_encode($arr);
 		showMsg(1,"",array($ukey));
 	}else{
 		showMsg(0,"",array($ukey));
-
 	}
  ?>

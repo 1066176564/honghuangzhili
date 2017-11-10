@@ -1,11 +1,13 @@
 <?php 
 header("Access-Control-Allow-Origin:*");
-
 $db= mysqli_connect("localhost","root","root","loging");
 mysqli_query($db,"set names utf8");
 $name = isset($_POST['name'])?$_POST['name']:"";
 $passwd= isset($_POST['pass'])?$_POST['pass']:"";
 $sign= isset($_POST['sign'])?$_POST['sign']:"";
+if($sign){
+	setcookie("ukey","1",time()+600);
+}
 if(!$name || !$passwd){
 	showMsg(0,"用户名和密码不能为空");
 	exit(); 
@@ -21,10 +23,8 @@ if(!$res){
 	showMsg(0,"用户名或密码错误");
 	exit(); 
 }
-if($sign){
-	setcookie("ukey","1",time()+600);
-}
-showMsg(1,"",$res);
+
+	showMsg(1,"",$res);
 function showMsg($st,$error="",$data=[]){
 	$arr['st'] = $st;
 	$arr['error'] = $error;

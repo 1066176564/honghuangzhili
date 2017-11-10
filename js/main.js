@@ -6,7 +6,7 @@ require.config(
 				login:"login",
 				ajax:"ajax",
 				zc:"zc",
-				sign:"sign",
+				sign:"sign"
 			}
 		}
 )
