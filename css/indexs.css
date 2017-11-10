@@ -467,3 +467,25 @@ main #div3 #add-ym main button{
 	color: black;
 	font-size: 18px;
 }
+
+/* 关于页面 */
+#div4 h2{
+	text-align: center;
+}
+
+#div4 .directorate{
+	padding: 20px;
+}
+
+#div4 .directorate>h3{
+	margin-top: 20px;
+}
+
+#div4 .nr{
+	padding: 20px;
+	border:1px solid #ccc;
+}
+
+#div4 .nr p{
+	margin-top: 10px;
+}
