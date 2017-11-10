@@ -41,13 +41,13 @@ define(["jquery","ajax"],function($,ajax){
 								<div>${name}</div>
 
 								<div>
-									<p>宋江</p>
-									<p>养发部门</p>
+									<p>${item.name}</p>
+									<p>${item.type}</p>
 								</div>
 
 								<div>
-									<p>1234567898</p>
-									<p>1234567898</p>
+									<p>${item.tel}</p>
+									<p>${item.email}</p>
 								</div>
 							</div>
 					`
